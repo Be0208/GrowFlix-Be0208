@@ -7,12 +7,12 @@ body {
       fixed;
   }
   
-  .banner-home {
+  .fundo-home {
     background: url("../assets/images/growcast-01.png") center top/cover no-repeat;
     min-height: 720px;
   }
   
-  .row-home-growcast {
+  .row-home {
     align-items: flex-end;
     min-height: 680px;
   }
@@ -55,7 +55,7 @@ body {
   }
   
   footer {
-    color: #757575;
+    color: #969696;
   }
   
   .link-growdev {
@@ -65,7 +65,7 @@ body {
   }
   
   .link-growdev:hover {
-    color: #ff8534;
+    color: #fb7115;
   }
   
   .detail-movie {
@@ -113,4 +113,8 @@ body {
   
   .col-movie {
     min-height: 230px;
+  }
+
+  .navbar-nav{
+    align-items: center;
   }
