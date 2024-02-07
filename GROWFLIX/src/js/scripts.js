@@ -37,7 +37,6 @@ function renderItems(element, items) {
         alt=""
       />
       <p class="detail-movie" data-link="${item.link}" onclick="openMovie(this)">
-      
         <span>▶              </span>
         <span>${item.title}</span>
       </p>
